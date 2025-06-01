@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import XLogin from './App';
+import LoginPage from './LoginPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <XLogin />
+    <LoginPage />
   </React.StrictMode>
 );
 

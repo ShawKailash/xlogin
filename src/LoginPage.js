@@ -8,11 +8,6 @@ function LoginPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    if(username === "" || password ===""){
-      setError("Both fields are required");
-      return;
-    }
   
     if(username === "user" && password === "password"){
       setError("");
@@ -25,7 +20,7 @@ function LoginPage() {
   };
 
   return (
-    <div className="login-container">
+    <div>
       <h1>Login Page</h1>
       {isSubmitted ? (
         <div>
